@@ -1,5 +1,6 @@
 import React from "react";
 import './NavBar.css'
+import API from "./APIcall";
 
 export default function NavBar() {
 
@@ -13,6 +14,10 @@ export default function NavBar() {
           <a className="nav">Servies</a><br/>
         </div>
         <button className="signUp"> sign up</button>
+      </div>
+
+      <div>
+        <API/>
       </div>
     </>
   )
