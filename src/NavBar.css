@@ -1,0 +1,23 @@
+.logo{
+width: 10%;
+}
+
+.nav{
+  color: #000;
+  font-size: 20px;
+  font-family: Inter;
+}
+
+.signUp{
+
+}
+
+.navBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1512px;
+  height: 112px;
+  flex-shrink: 0;
+  background: #F9E9A9;
+}
