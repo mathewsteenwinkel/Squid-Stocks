@@ -1,11 +1,9 @@
 import './App.css';
-import NavBar from './NavBar';
+import Layout from './components/layout/Layout.js';
 
 function App() {
   return (
-    <div className="App">
-      <NavBar/>
-    </div>
+    <Layout />
   );
 }
 
