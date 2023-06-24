@@ -1,4 +1,16 @@
 .container {
-  width: 50%;
-  background-color: blanchedalmond;
+  width: 85%;
+  margin: 2rem;
+
+}
+
+.container ul {
+  list-style-type: none;
+  margin: 0.5rem 1rem;
+  padding: 0;
+}
+
+.container li div {
+  margin-bottom: 10px;
+
 }
